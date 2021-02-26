@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	$basetexture	"models\airdrop\parachute"
+	"$alphatest" 1
+	
+	$detail             	"models\airdrop\cloth"
+	$detailscale		8
+	$detailblendfactor		1
+	$detailblendmode		0
+	
+
+}

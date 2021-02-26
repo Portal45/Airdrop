@@ -1,0 +1,29 @@
+"UnLitGeneric"
+{
+	$basetexture "models\airdrop\screen_error"
+	$nocull 1
+	$translucent 1
+	$model 1
+	$detail "models\airdrop\scanlines"
+	$detailscale 1
+	$detailblendfactor 1
+	$detailblendmode 1
+
+	Proxies
+	{
+		UniformNoise
+		{
+			resultVar	$alpha
+			minVal	0.7
+			maxVal	1
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$detailtexturetransform"
+			"texturescrollrate" 5
+			"texturescrollangle" 0
+		}
+ 	}
+}
+
+

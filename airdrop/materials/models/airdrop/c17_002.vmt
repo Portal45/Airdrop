@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$baseTexture "models\airdrop\c17_002"
+	$surfaceprop metal
+	$halflambert 1
+	$phong 1
+	$phongboost "1.5"
+	$phongexponent 7
+	$phongtint "[.80 .80 1]"
+	$phongfresnelranges "[.3 .65 1]"
+	$nodecal 1
+	$ambientocclusion 1
+}
